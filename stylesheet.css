@@ -1,0 +1,31 @@
+/* Stylesheet for siddak1234.github.io */
+/* Requirement 1: Body is the HTML Tag */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 32px;
+  color: #1a1a1a;
+}
+
+.intro {
+/* Requirement 2: intro class applied to two elements */
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+}
+
+/* Requirement 7: Change at least two box model properties of any tag, class, or id. */
+div {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #e0e0e0;
+}
+
+/* Requirement 3: Create at least one id */
+#tagline {
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* Requirement 6: Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a:hover {
+  color: #0b63c9;
+}
